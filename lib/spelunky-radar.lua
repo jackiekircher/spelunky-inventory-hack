@@ -64,15 +64,18 @@ local function drawEnemies()
   while (objectAddress ~= 0) do
     -- initialize a new object
     o = MapObject.new(objectAddress)
-    -- print(string.format("%x", objectAddress))
 
-    if o:isDamsel() then
-      drawSquare(o.x, o.y, cGreen)
-    elseif o:isEnemy() then
+    if o:isEnemy() then
       local color = cGrey
+
       if o:isAlive() then
-        color = cRed
+        if o:isDamsel() then
+          color = cGreen
+        else
+          color = cRed
+        end
       end
+
       drawSquare(o.x, o.y, color)
     end
 

@@ -14,7 +14,8 @@ function MapObject.new(address)
 end
 
 function MapObject:isAlive()
-  return self.health > 0
+  -- check for sign bit since readInteger ignores it
+  return (self.health & 0x80000000) == 0
 end
 
 function MapObject:isDamsel()
