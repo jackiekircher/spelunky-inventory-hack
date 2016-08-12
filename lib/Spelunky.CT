@@ -743,6 +743,107 @@
         </CheatEntry>
       </CheatEntries>
     </CheatEntry>
+    <CheatEntry>
+      <ID>110</ID>
+      <Description>"+patches"</Description>
+      <Options moAllowManualCollapseAndExpand="1"/>
+      <LastState Value="" RealAddress="00000000"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>108</ID>
+          <Description>"I ain't afraid of no ghosts"</Description>
+          <LastState/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+jmp Spelunky.exe+53C93
+
+originalcode:
+//jne Spelunky.exe+53C93
+push ebx
+call Spelunky.exe+7F2D0
+
+exit:
+jmp returnhere
+
+"Spelunky.exe"+53C56:
+jmp newmem
+nop
+nop
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"Spelunky.exe"+53C56:
+jne Spelunky.exe+53C93
+push ebx
+call Spelunky.exe+7F2D0
+//Alt: db 75 3B 53 E8 72 B6 02 00
+</AssemblerScript>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>109</ID>
+          <Description>"shopkeepers only"</Description>
+          <LastState Activated="1"/>
+          <VariableType>Auto Assembler Script</VariableType>
+          <AssemblerScript>[ENABLE]
+//code from here to '[DISABLE]' will be used to enable the cheat
+alloc(newmem,2048)
+label(returnhere)
+label(originalcode)
+label(exit)
+
+newmem: //this is allocated memory, you have read,write,execute access
+//place your code here
+cmp ebx,000003E8
+jg checkenemy
+jmp returnhere
+
+checkenemy:
+cmp ebx,0000041F
+jl replaceenemy
+jmp returnhere
+
+replaceenemy:
+mov ebx,000003EE
+
+originalcode:
+cmp ebx,000003E8
+
+exit:
+jmp returnhere
+
+"Spelunky.exe"+6DDE6:
+jmp newmem
+nop
+returnhere:
+
+
+ 
+ 
+[DISABLE]
+//code from here till the end of the code will be used to disable the cheat
+dealloc(newmem)
+"Spelunky.exe"+6DDE6:
+cmp ebx,000003E8
+//Alt: db 81 FB E8 03 00 00
+</AssemblerScript>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Comments>Info about this table:
