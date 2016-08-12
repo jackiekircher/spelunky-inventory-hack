@@ -12,6 +12,19 @@ local cGreen = 35653
 local cGrey  = 8684676
 local cWhite = 16777215
 
+-- timer
+local timer = createTimer(nil, true)
+
+local function startTimer()
+  timer.setInterval(200)
+  timer.setEnabled(true)
+end
+
+local function pauseTimer()
+  timer.setEnabled(false)
+end
+
+-- canvas
 local function clearCanvas()
   brush.setColor(0)
   canvas.clear()
@@ -72,16 +85,28 @@ function RadarWindow.init()
   -- show the inventory window
   form_show(Radar)
 
-  -- let us close the window
-  function CloseClick()
+  -- destroy the timer when the window is closed
+  local function RadarCloseClick()
+    timer.destroy()
     return caFree
   end
-  Radar.OnClose = CloseClick
+  Radar.OnClose = RadarCloseClick
 
-  timer = createTimer(RadarWindow, true)
-  timer.setInterval(200)
+  -- setup pause/resume popup menu
+  local function ToggleRadarTimer(sender)
+    if (sender.getCaption() == 'pause') then
+      pauseTimer()
+      sender.setCaption('resume')
+    else
+      startTimer()
+      sender.setCaption('pause')
+    end
+  end
+  Radar.PopupMenu1.getItems().getItem(0).setOnClick(ToggleRadarTimer)
+
+  -- redraw radar every 200ms
   timer.setOnTimer(drawEnemies)
-  --drawEnemies()
+  startTimer()
 end
 
 return RadarWindow
