@@ -31,6 +31,10 @@ local function clearCanvas()
 end
 
 local function drawSquare(x, y, color)
+  x = tonumber(x)
+  y = tonumber(y)
+  if (x == nil) or (y == nil) then return end   -- can't draw this
+
   -- map runs from 2.8,99.3 to 42.2,68
   local mapx =   (x-2.8) * (400/39.4)  - 5
   local mapy = (-((y-68) / 31.3) + 1) * 300 - 5
@@ -43,9 +47,7 @@ local function drawPlayer()
   local playerx = addressList.getMemoryRecordByDescription('player x')
   local playery = addressList.getMemoryRecordByDescription('player y')
 
-  drawSquare(tonumber(playerx:getValue()),
-             tonumber(playery:getValue()),
-             cWhite)
+  drawSquare(playerx:getValue(), playery:getValue(), cWhite)
 end
 
 local function drawEnemies()
