@@ -16,7 +16,7 @@ local cWhite = 16777215
 local timer = createTimer(nil, true)
 
 local function startTimer()
-  timer.setInterval(200)
+  timer.setInterval(100)
   timer.setEnabled(true)
 end
 
