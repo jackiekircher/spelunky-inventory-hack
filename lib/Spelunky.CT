@@ -15,7 +15,6 @@
         <CheatEntry>
           <ID>7</ID>
           <Description>"health"</Description>
-          <LastState Value="42" RealAddress="076846B0"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -27,7 +26,6 @@
         <CheatEntry>
           <ID>11</ID>
           <Description>"health mirror?"</Description>
-          <LastState Value="42" RealAddress="076846B4"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -39,7 +37,6 @@
         <CheatEntry>
           <ID>19</ID>
           <Description>"shadow health"</Description>
-          <LastState Value="42" RealAddress="15496AC8"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -50,7 +47,6 @@
         <CheatEntry>
           <ID>9</ID>
           <Description>"total gold"</Description>
-          <LastState Value="1500" RealAddress="076846B8"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -62,7 +58,6 @@
         <CheatEntry>
           <ID>8</ID>
           <Description>"gold this level"</Description>
-          <LastState Value="1500" RealAddress="076846BC"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -74,7 +69,6 @@
         <CheatEntry>
           <ID>6</ID>
           <Description>"bombs"</Description>
-          <LastState Value="44" RealAddress="076846C0"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -86,7 +80,6 @@
         <CheatEntry>
           <ID>5</ID>
           <Description>"ropes"</Description>
-          <LastState Value="4" RealAddress="076846C4"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -98,7 +91,6 @@
         <CheatEntry>
           <ID>12</ID>
           <Description>"auto run (0 is on)"</Description>
-          <LastState Value="0" RealAddress="076846C8"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -124,7 +116,6 @@
                 <CheatEntry>
                   <ID>89</ID>
                   <Description>"object pointer"</Description>
-                  <LastState Value="00000000" RealAddress="15496BBC"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>"Spelunky.exe"+00131330</Address>
@@ -172,7 +163,6 @@
             <CheatEntry>
               <ID>23</ID>
               <Description>"id"</Description>
-              <LastState Value="00000000" RealAddress="07684738"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>4 Bytes</VariableType>
               <Address>"Spelunky.exe"+00131330</Address>
@@ -185,7 +175,6 @@
             <CheatEntry>
               <ID>91</ID>
               <Description>"??"</Description>
-              <LastState Value="0" RealAddress="0768473C"/>
               <VariableType>4 Bytes</VariableType>
               <Address>"Spelunky.exe"+00131330</Address>
               <Offsets>
@@ -206,7 +195,6 @@
             <CheatEntry>
               <ID>21</ID>
               <Description>"Compass"</Description>
-              <LastState Value="0" RealAddress="07684720"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -216,7 +204,6 @@
             <CheatEntry>
               <ID>73</ID>
               <Description>"Parachute"</Description>
-              <LastState Value="0" RealAddress="07684721"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -226,7 +213,6 @@
             <CheatEntry>
               <ID>74</ID>
               <Description>"Jetpack (flag)"</Description>
-              <LastState Value="0" RealAddress="07684722"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -249,7 +235,6 @@
             <CheatEntry>
               <ID>75</ID>
               <Description>"Climbing Gloves"</Description>
-              <LastState Value="0" RealAddress="07684723"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -259,7 +244,6 @@
             <CheatEntry>
               <ID>76</ID>
               <Description>"Pitcher's Mitt"</Description>
-              <LastState Value="0" RealAddress="07684724"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -269,7 +253,6 @@
             <CheatEntry>
               <ID>77</ID>
               <Description>"Spring Shoes"</Description>
-              <LastState Value="0" RealAddress="07684725"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -279,7 +262,6 @@
             <CheatEntry>
               <ID>78</ID>
               <Description>"Spike Shoes"</Description>
-              <LastState Value="0" RealAddress="07684726"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -289,7 +271,6 @@
             <CheatEntry>
               <ID>79</ID>
               <Description>"Spectacles"</Description>
-              <LastState Value="0" RealAddress="07684727"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -299,7 +280,6 @@
             <CheatEntry>
               <ID>80</ID>
               <Description>"Kapala"</Description>
-              <LastState Value="0" RealAddress="07684728"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -309,7 +289,6 @@
             <CheatEntry>
               <ID>81</ID>
               <Description>"Hedjet"</Description>
-              <LastState Value="0" RealAddress="07684729"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -319,7 +298,6 @@
             <CheatEntry>
               <ID>82</ID>
               <Description>"Udjat Eye"</Description>
-              <LastState Value="0" RealAddress="0768472A"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -329,7 +307,6 @@
             <CheatEntry>
               <ID>83</ID>
               <Description>"Book of the Dead"</Description>
-              <LastState Value="0" RealAddress="0768472B"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -339,7 +316,6 @@
             <CheatEntry>
               <ID>54</ID>
               <Description>"Ankh"</Description>
-              <LastState Value="0" RealAddress="0768472C"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -349,7 +325,6 @@
             <CheatEntry>
               <ID>84</ID>
               <Description>"Paste"</Description>
-              <LastState Value="0" RealAddress="0768472D"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -359,7 +334,6 @@
             <CheatEntry>
               <ID>85</ID>
               <Description>"Cape (flag)"</Description>
-              <LastState Value="0" RealAddress="0768472E"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -369,7 +343,6 @@
             <CheatEntry>
               <ID>86</ID>
               <Description>"Vlad's Cape (flag)"</Description>
-              <LastState Value="0" RealAddress="0768472F"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -379,7 +352,6 @@
             <CheatEntry>
               <ID>87</ID>
               <Description>"Crysknife"</Description>
-              <LastState Value="0" RealAddress="07684730"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -389,7 +361,6 @@
             <CheatEntry>
               <ID>88</ID>
               <Description>"Vlad's Amulet"</Description>
-              <LastState Value="0" RealAddress="07684731"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -410,7 +381,6 @@
         <CheatEntry>
           <ID>13</ID>
           <Description>"total kills"</Description>
-          <LastState Value="0" RealAddress="07684740"/>
           <VariableType>4 Bytes</VariableType>
           <Address>Spelunky.exe+13128C</Address>
           <Offsets>
@@ -420,7 +390,6 @@
         <CheatEntry>
           <ID>26</ID>
           <Description>"kills this level"</Description>
-          <LastState Value="0" RealAddress="07685B48"/>
           <VariableType>4 Bytes</VariableType>
           <Address>Spelunky.exe+13128C</Address>
           <Offsets>
@@ -430,7 +399,6 @@
         <CheatEntry>
           <ID>18</ID>
           <Description>"kapala blood level"</Description>
-          <LastState Value="0" RealAddress="07684734"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -442,7 +410,6 @@
         <CheatEntry>
           <ID>16</ID>
           <Description>"kali favor"</Description>
-          <LastState Value="0" RealAddress="0768994C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>Spelunky.exe+13128C</Address>
           <Offsets>
@@ -452,7 +419,6 @@
         <CheatEntry>
           <ID>20</ID>
           <Description>"kali favor level"</Description>
-          <LastState Value="0" RealAddress="07684634"/>
           <VariableType>4 Bytes</VariableType>
           <Address>Spelunky.exe+13128C</Address>
           <Offsets>
@@ -471,7 +437,6 @@
         <CheatEntry>
           <ID>30</ID>
           <Description>"player x"</Description>
-          <LastState Value="26.12829971" RealAddress="154969B8"/>
           <VariableType>Float</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -482,7 +447,6 @@
         <CheatEntry>
           <ID>31</ID>
           <Description>"player x section"</Description>
-          <LastState Value="6" RealAddress="15496998"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -493,7 +457,6 @@
         <CheatEntry>
           <ID>37</ID>
           <Description>"player y"</Description>
-          <LastState Value="93" RealAddress="154969BC"/>
           <VariableType>Float</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -504,7 +467,6 @@
         <CheatEntry>
           <ID>36</ID>
           <Description>"player y section"</Description>
-          <LastState Value="23" RealAddress="1549699C"/>
           <VariableType>4 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -515,7 +477,6 @@
         <CheatEntry>
           <ID>33</ID>
           <Description>"player distance from ground"</Description>
-          <LastState Value="0" RealAddress="154969BC"/>
           <VariableType>2 Bytes</VariableType>
           <Address>"Spelunky.exe"+00131330</Address>
           <Offsets>
@@ -533,7 +494,6 @@
             <CheatEntry>
               <ID>72</ID>
               <Description>"object pointer array"</Description>
-              <LastState Value="076ACD38" RealAddress="07244050"/>
               <ShowAsHex>1</ShowAsHex>
               <VariableType>4 Bytes</VariableType>
               <Address>Spelunky.exe+13128C</Address>
@@ -551,7 +511,6 @@
                 <CheatEntry>
                   <ID>65</ID>
                   <Description>"??"</Description>
-                  <LastState Value="012F350C" RealAddress="07753EF8"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
@@ -564,7 +523,6 @@
                 <CheatEntry>
                   <ID>66</ID>
                   <Description>"index"</Description>
-                  <LastState Value="0" RealAddress="07753EFC"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -576,7 +534,6 @@
                 <CheatEntry>
                   <ID>67</ID>
                   <Description>"??"</Description>
-                  <LastState Value="4" RealAddress="07753F00"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -588,7 +545,6 @@
                 <CheatEntry>
                   <ID>62</ID>
                   <Description>"type"</Description>
-                  <LastState Value="000000B1" RealAddress="07753F04"/>
                   <ShowAsHex>1</ShowAsHex>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
@@ -601,7 +557,6 @@
                 <CheatEntry>
                   <ID>68</ID>
                   <Description>"x section"</Description>
-                  <LastState Value="6" RealAddress="07753F08"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -613,7 +568,6 @@
                 <CheatEntry>
                   <ID>69</ID>
                   <Description>"y section"</Description>
-                  <LastState Value="23" RealAddress="07753F0C"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -625,7 +579,6 @@
                 <CheatEntry>
                   <ID>70</ID>
                   <Description>"x position"</Description>
-                  <LastState Value="26.1296196" RealAddress="07753F28"/>
                   <VariableType>Float</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -637,7 +590,6 @@
                 <CheatEntry>
                   <ID>71</ID>
                   <Description>"y position"</Description>
-                  <LastState Value="93.02832794" RealAddress="07753F2C"/>
                   <VariableType>Float</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -649,7 +601,6 @@
                 <CheatEntry>
                   <ID>104</ID>
                   <Description>"health"</Description>
-                  <LastState Value="1" RealAddress="07754038"/>
                   <VariableType>4 Bytes</VariableType>
                   <Address>Spelunky.exe+13128C</Address>
                   <Offsets>
@@ -674,7 +625,6 @@
         <CheatEntry>
           <ID>97</ID>
           <Description>"something to do with the ghost"</Description>
-          <LastState Value="15496988" RealAddress="076846A0"/>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>Spelunky.exe+13128C</Address>
@@ -692,7 +642,6 @@
             <CheatEntry>
               <ID>98</ID>
               <Description>"level number?"</Description>
-              <LastState Value="1" RealAddress="076845F4"/>
               <VariableType>4 Bytes</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -702,7 +651,6 @@
             <CheatEntry>
               <ID>100</ID>
               <Description>"flag (worm jungle?)"</Description>
-              <LastState Value="0" RealAddress="07684617"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -712,7 +660,6 @@
             <CheatEntry>
               <ID>101</ID>
               <Description>"flag (worm ice caves?)"</Description>
-              <LastState Value="0" RealAddress="07684615"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -722,7 +669,6 @@
             <CheatEntry>
               <ID>102</ID>
               <Description>"flag (olmec?)"</Description>
-              <LastState Value="0" RealAddress="0768462A"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -732,7 +678,6 @@
             <CheatEntry>
               <ID>103</ID>
               <Description>"time limit?"</Description>
-              <LastState Value="0" RealAddress="0768460B"/>
               <VariableType>Byte</VariableType>
               <Address>Spelunky.exe+13128C</Address>
               <Offsets>
@@ -747,10 +692,13 @@
   <UserdefinedSymbols/>
   <Comments>Info about this table:
 </Comments>
-  <LuaScript>getAutoAttachList().add("Spelunky.exe")
+  <LuaScript>-- attach script to Spelunky
+getAutoAttachList().add("Spelunky.exe")
+
+-- get addresses from cheat table
 addressList = getAddressList()
 
--- inventory
+-- inventory window
 package.loaded["spelunky-inventory"] = nil
 InventoryWindow  = require "spelunky-inventory"
 AboutButtonClick = InventoryWindow.AboutButtonClick
@@ -760,7 +708,7 @@ StatEditChange   = InventoryWindow.StatEditChange
 InventoryWindow.init()
 
 
--- radar
+-- radar window
 package.loaded["spelunky-radar"] = nil
 RadarWindow = require "spelunky-radar"
 
