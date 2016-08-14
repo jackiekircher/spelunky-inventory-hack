@@ -6,6 +6,7 @@ local RadarWindow = {}
 local canvas
 local brush
 local radarImage = createImage(Radar)
+local level = 0
 
 -- colors
 local cRed   = 858083
@@ -23,6 +24,44 @@ end
 
 local function pauseTimer()
   timer.setEnabled(false)
+end
+
+-- levels
+local function levelBg()
+  if level > 16 then
+    return 'images/hellbg.png'
+  elseif level > 12 then
+    return 'images/templebg.png'
+  elseif level > 8 then
+    return 'images/icebg.png'
+  elseif level > 4 then
+    return 'images/junglebg.png'
+  else
+    return 'images/minebg.png'
+  end
+end
+
+local function borderBg()
+  if level > 16 then
+    return 'images/radar-border-hell.png'
+  else
+    return 'images/radar-border.png'
+  end
+end
+
+local function updateBg()
+  local currentLevel = addressList.getMemoryRecordByDescription('level')
+  currentLevel = tonumber(currentLevel.getValue())
+
+  if currentLevel == level then
+    return
+  end
+
+  level = currentLevel
+  local bgPicture = Radar.Background.getPicture()
+  bgPicture.loadFromFile(levelBg())
+  local borderPicture = Radar.Border.getPicture()
+  borderPicture.loadFromFile(borderBg())
 end
 
 -- canvas
@@ -66,6 +105,7 @@ local function drawPlayer()
 end
 
 local function drawEnemies()
+  updateBg()
 
   -- create a fresh image to draw the next frame of the radar
   image = newFrame()
