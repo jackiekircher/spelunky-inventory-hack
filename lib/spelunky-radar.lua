@@ -3,10 +3,11 @@ require "spelunky-map-object"
 
 local RadarWindow = {}
 
-local bg     = Radar.RadarImage
-local canvas = bg.getCanvas()
-local brush  = canvas.getBrush()
+local canvas
+local brush
+local radarImage = createImage(Radar)
 
+-- colors
 local cRed   = 858083
 local cGreen = 35653
 local cGrey  = 8684676
@@ -25,9 +26,23 @@ local function pauseTimer()
 end
 
 -- canvas
-local function clearCanvas()
-  brush.setColor(0)
-  canvas.clear()
+local function newFrame()
+  image = createImage(Radar)
+  image.setWidth(400)
+  image.setHeight(300)
+  image.setTop(20)
+  image.setLeft(20)
+  image.setTransparent(true)
+
+  bitmap = image.getPicture().getBitmap()
+  bitmap.setWidth(image.getWidth())
+  bitmap.setHeight(image.getHeight())
+  bitmap.setTransparentColor(0)
+
+  canvas = image.getCanvas()
+  brush  = canvas.getBrush()
+
+  return image
 end
 
 local function drawSquare(x, y, color)
@@ -51,7 +66,11 @@ local function drawPlayer()
 end
 
 local function drawEnemies()
-  clearCanvas()
+
+  -- create a fresh image to draw the next frame of the radar
+  image = newFrame()
+
+  -- draw the player
   drawPlayer()
 
   -- locate map object array from the cheat table
@@ -83,6 +102,9 @@ local function drawEnemies()
     objectAddress = readPointer(mapObjectsAddress)
   end
 
+  -- destroy the old image so we don't kill memory
+  radarImage.destroy()
+  radarImage = image
 end
 
 function RadarWindow.init()
@@ -92,6 +114,7 @@ function RadarWindow.init()
 
   -- destroy the timer when the window is closed
   local function RadarCloseClick()
+    radarImage.destroy()
     timer.destroy()
     return caFree
   end
@@ -112,6 +135,7 @@ function RadarWindow.init()
   -- redraw radar every 200ms
   timer.setOnTimer(drawEnemies)
   startTimer()
+  -- drawEnemies()
 end
 
 return RadarWindow
