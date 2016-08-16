@@ -3,6 +3,8 @@
 This is a hack for Spelunky that I've been building for my Abstractions
 Distraction, 'Video Game Hacking - Memory Introspection for Fun'.
 
+![spelunky inventory hack](https://github.com/jackiekircher/spelunky-inventory-hack/blob/master/lib/images/spelunky-inventory.PNG)
+
 ## Motivation
 I built this hack purely as an educational resource to introduce people to Cheat Engine and how to
 get into hacking games. I believe that the balance of spelunky is
@@ -29,6 +31,8 @@ including yourself and damsels. The colors are as follows:
 * green - damsel
 * red - enemy
 * grey - dead body
+
+![spelunky radar, mines 1-2](https://github.com/jackiekircher/spelunky-inventory-hack/blob/master/lib/images/spelunky-radar.PNG)
 
 The radar currently does not distinguish between hired hands or other
 characters, but in the big picture aren't they more enemy than ally?
