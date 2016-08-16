@@ -1,0 +1,39 @@
+Observations about how map data is stored in Spelunky
+
+map bounaries (not including the worm, title screen, or level summary screen)
+
+  2.8,99.3 - - - - 42.2,99.3
+     |                 |
+
+     |                 |
+
+     |                 |
+  2.8,68 - - - - - 42.2,68
+
+objects
+
+  objects are offset by 288 in memory, aka they are ~284 bytes large
+
+  data format
+    +00 - pointer to something (what?)
+    +04 - index in enemy list
+    +08 - ??
+    +0C - 4 byte int object ID
+    +10 - 4 byte int object x section
+    +04 - 4 byte int object y section		// differs from player y section (6 less)
+    ...
+    +30 - 4 byte float object x position
+    +34 - 2 byte float object y position
+    ...
+    +140 - health
+
+
+object 'sections'
+
+the game keeps tabs on a list of objects that are on the current level.
+for some reason, certain objects are spawned in the middle of this array
+and following objects are shifted as necessary.
+
+  - base
+  + 00 - ghost is inserted here
+  + 28 - whip is inserted here

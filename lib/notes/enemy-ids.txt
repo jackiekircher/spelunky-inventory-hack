@@ -1,0 +1,71 @@
+Spelunky Enemy IDs
+(*= humanoid for murderbot runs)
+
+03E9 - snake
+03EA - spider
+03EB - bat
+03EC - Caveman      *
+03ED - Damsel       *
+03EE - shopkeeper   *
+03EF - frog
+03F0 - man trap
+03F1 - yeti         *
+03F2 - ufo
+03F3 - hawk man     *
+03F4 - skeleton
+03F5 - pirahna
+03F6 - mummy        *
+03F7 - monkey       *
+03F8 - alien lord
+03F9 - ghost
+03FA - giant spider
+03FB - jiang shi    *
+03FC - vampire      *
+03FD - fire frog
+03FE - tunnel man
+03FF - old bitey
+0400 - scarab
+0401 - yeti king    *
+0402 - alien
+0403 - magma man
+0404 - vlad         *
+0405 - scorpion
+0406 - imp
+0407 - devil        *
+0408 - killer bee
+0409 - anubis       *
+040A - queen bee
+040B - bacterium
+040C - cobra
+040D - spinner spider
+040E - giant frog
+040F - mammoth
+0410 - alien tank
+0411 - tiki man     *
+0412 - scorpion fly
+0413 - snail
+0414 - croc man     *
+0415 - green knight *
+0416 - worm egg
+0417 - worm baby
+0418 - alien queen
+0419 - black knight *
+041A - golden monkey
+041B - succubus     *
+041C - horse head   *
+041D - ox face      *
+041E - anubis II    *
+041F - olmec
+0420 - yama         *
+
+0421 - yama hand (left)
+0422 - turret
+0423 - frog
+0424 - alien lord eye
+0425 - baby spider
+0426 - blood?
+0427 - rat
+0428 - penguin
+042B - cricket
+042C - maggot
+

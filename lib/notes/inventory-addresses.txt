@@ -1,0 +1,28 @@
+Inventory Addresses
+
+inventories are offset by 1A4A per player, so...
+
+player 1's inventory starts at Spelunky.exe+13128C
+player 2's inventory starts at Spelunky.exe+13128C+14A4
+player 3's inventory starts at Spelunky.exe+13128C+2948
+player 4's inventory starts at Spelunky.exe+13128C+3DEC
+
+Spelunky.exe+13128C
+  +00440700 - Compass
+  +00440701 - Parachute
+  +00440702 - Jetpack
+  +00440703 - Climbing Gloves
+  +00440704 - Pitcher's Mitt
+  +00440705 - Spring Shoes
+  +00440706 - Spike Boots
+  +00440707 - Spectacles
+  +00440708 - Kapala
+  +00440709 - Hedjet
+  +0044070A - Udjat Eye
+  +0044070B - Book of the Dead
+  +0044070C - Ankh
+  +0044070D - Paste
+  +0044070E - Cape (flag)
+  +0044070F - Vlad's Cape
+  +00440710 - Crysknife
+  +00440711 - Vlad's Amulet

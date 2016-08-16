@@ -1,0 +1,61 @@
+Spelunky Item IDs
+(XXX= game crashes when spawned inappropriately)
+
+006B - bomb
+006C - rope
+006D - whip
+0070 - rock
+0071 - pot
+0072 - skull
+0073 - spider web
+0074 - slime?
+0075 - puff of smoke
+0076 - gold bar
+0077 - XXX
+0078 - boulder
+0079 - psuh block
+007A - dart
+007C - gold nugget
+007D - gem (200) emerald
+007E - gem (300) sapphire
+007F - gem (400) ruby
+0080 - XXX
+0081 - XXX
+00D8 - dart (no head)
+009A - the key
+
+00CB - freeze blast (left)
+00CC - freeze blast (right) XXX
+
+012D - flash of light
+
+
+# Items
+
+01F4 - Rope Pile
+01F5 - Bomb Bag
+01F6 - Bomb Box
+01F7 - Spectacles
+01F8 - Climbing Gloves
+01F9 - Pitcher's Mitt
+01FA - Spring Shoes
+01FB - Spike Boots
+01FC - Paste
+01FD - Compass
+
+
+# Weapons
+
+01FE - Mattock
+01FF - Boomerang
+0200 - Machete
+0202 - Web Gun
+0203 - Shotgun
+0204 - Freeze Ray
+0205 - Plasma Rifle
+0206 - Camera
+0207 - Teleporter
+
+0209 - Cape?
+020A - jetpack?
+020E - Kapala
